@@ -9,11 +9,11 @@ Create a script in /usr/bin or /usr/local/bin with the following content:
 
 #!/bin/sh
 
-username=\`basename $HOME\`
+USERNAME=\`basename $HOME\`
 
 docker run --rm \
     -i -t \
-    -v ${HOME}:/home/${USER_NAME} \
+    -v ${HOME}:/home/${USERNAME} \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -e DISPLAY=unix$DISPLAY \
     -e VHOME=${HOME} \
