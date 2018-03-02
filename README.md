@@ -5,7 +5,7 @@ Docker Image to launch scribus 1.5.x on différents linux platform.
 Tested on CentOS 7.4. 
 To use it:
 
-Create a script in /usr/bin or /usr/local/bin with this content:
+Create a script in /usr/bin or /usr/local/bin with the following content:
 
 #!/bin/sh
 
