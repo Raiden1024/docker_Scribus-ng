@@ -1,6 +1,8 @@
 # docker_Scribus-ng
 Scribus 1.5 docker container
 
+https://hub.docker.com/r/copernic1024/scribus-ng/
+
 Docker Image to launch scribus 1.5.x on différents linux platform.
 Tested on CentOS 7.4. 
 To use it:
